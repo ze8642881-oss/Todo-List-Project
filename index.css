@@ -3,12 +3,38 @@
 }
 body{
   font-family: Arial;
+  display: flex;
+  justify-content: center;
+  background-color: bisque;
+}
+.body{
+  background-color: rgb(236, 186, 112);
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-radius: 13px;
   
+}
+.title{
+  font-size: 22px;
+  font-weight: 600;
+  font-family: Tahoma;
+  
+}
+.div-name,
+.div-date{
+  overflow: hidden;
+  min-width: 190px;
+  padding-left: 10px;
+  font-weight:550;
+  font-family: 'Courier New', Courier, monospace;
 }
 .js-div,
 .input-div{
   display: grid;
-  grid-template-columns: 200px 150px 120px;
+  grid-template-columns: 1fr 150px 120px;
   column-gap: 10px;
   row-gap: 10px;
   align-items: center;
